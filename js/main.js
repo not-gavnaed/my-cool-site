@@ -1,4 +1,15 @@
-const id = "W_sKgm0xKoI";
+var arr = ["W_sKgm0xKoI", "mYlIw9HpqAM", "blgmjOBQi5Y"];
+
+function getRandomElement(arr) {
+  var randomIndex = Math.floor(Math.random() * arr.length);
+  return arr[randomIndex];
+}
+
+var randomString = getRandomElement(arr);
+
+
+
+const id = randomString;
 const btn = document.getElementById('btn')
 const back = document.getElementsByClassName('start')[0]
 const info = document.getElementsByClassName('info')[0]
