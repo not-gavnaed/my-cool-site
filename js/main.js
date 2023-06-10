@@ -20,7 +20,7 @@ YT.ready((event=> {
                     player.unMute()
                     btn.id='none'
                     // back.style.opacity = '0.8'
-                    back.style.backgroundColor = `rgba(0,0,0,0.8)`
+                    back.style.backgroundColor = `rgba(0,0,0,0.6)`
                     info.id = ''
 
                     btn.innerText=''
