@@ -51,7 +51,7 @@ YT.ready((event=> {
         }, 
         events: {
             onReady: event => {
-                event.target.setVolume(10)
+                event.target.setVolume(100)
                 btn.addEventListener('click',()=>{
                     player.playVideo()
                     player.unMute()
