@@ -1,4 +1,4 @@
-var arr = ["mYlIw9HpqAM", "QNrG0WMtcKM", "dtYW3Kg53o0", "9zmgkR_SAGI", "bTjmr4GN5ag"];
+var arr = ["9zmgkR_SAGI"];
 
 function getRandomElement(arr) {
   var randomIndex = Math.floor(Math.random() * arr.length);
