@@ -244,3 +244,13 @@ li:hover {
 #countdown span {
     font-size: 36px;
 }
+
+ .centered-text {
+      background-color: white; /* Белый фон */
+      color: black; /* Цвет текста */
+      display: flex; /* Используем flexbox для центрирования */
+      justify-content: center; /* Горизонтальное центрирование */
+      align-items: center; /* Вертикальное центрирование */
+      height: 100vh; /* Высота блока - 100% высоты экрана */
+      margin: 0; /* Убираем отступы */
+    }
